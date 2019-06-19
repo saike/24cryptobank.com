@@ -129,7 +129,7 @@
           {
             title: 'ОНЛАЙН',
             subtitle: 'за 10 минут',
-            background: 'url(/banners/online.png) no-repeat bottom right/cover',
+            background: `url(${require('~/static/banners/online.png')}) no-repeat bottom right/cover`,
             align: 'right',
             benefits: [
               'безопасный перевод ·',
@@ -143,7 +143,7 @@
           {
             title: 'за наличные в офисе',
             subtitle: '"МОСКВА-СИТИ"',
-            background: 'url(/banners/ofice.png) no-repeat bottom right/cover',
+            background: `url(${require('~/static/banners/ofice.png')}) no-repeat bottom right/cover`,
             align: 'left',
             benefits: [
               '· офис в центре Москвы',
