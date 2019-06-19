@@ -1,0 +1,75 @@
+@import "colors";
+
+.shloff_form {
+
+  .input_text {
+
+    background-color: @input_bg_main;
+    outline: none;
+    color: @text_main;
+    border-radius: 10px;
+    border: 2px solid @input_border_main;
+    font-size: 14px;
+    padding: 8px 15px;
+
+    &:disabled {
+
+      background-color: transparent;
+
+    }
+
+    &.size_mid {
+
+      padding: 12px 20px;
+
+    }
+
+
+  }
+
+  .input_submit {
+
+    background-color: @input_border_main;
+    outline: none;
+    color: @input_bg_main;
+    border-radius: 10px;
+    border: 2px solid @input_border_main;
+    font-size: 14px;
+    padding: 8px 15px;
+    cursor: pointer;
+    text-decoration: none;
+
+  }
+
+  .input_checkbox {
+
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: @input_bg_main;
+    border-radius: 4px;
+    border: 2px solid @input_border_main;
+    position: relative;
+
+    &.checked:before {
+
+      content: '✔';
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      left: 0;
+      top: 0;
+      line-height: 16px;
+      font-size: 14px;
+
+    }
+
+    input {
+
+      visibility: hidden;
+
+    }
+
+  }
+
+}
