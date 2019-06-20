@@ -13,6 +13,9 @@ module.exports = {
     ],
     link: [
       { rel: 'icon', type: 'image/png', href: '/favicon.png' }
+    ],
+    script: [
+      { src: '/viewport.js' }
     ]
   },
   /*
