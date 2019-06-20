@@ -8,7 +8,7 @@ module.exports = {
     title: '24 Crypto Bank',
     meta: [
       { charset: 'utf-8' },
-      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+      { name: 'viewport', content: 'width=1280px, initial-scale=1' },
       { hid: 'description', name: 'description', content: 'Моментальный обмен криптовалют. Bitcoin, Etherium, BTC, ETH, сбербанк, альфабанк' }
     ],
     link: [

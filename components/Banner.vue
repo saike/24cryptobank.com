@@ -129,7 +129,7 @@
           {
             title: 'ОНЛАЙН',
             subtitle: 'за 10 минут',
-            background: `url(${require('~/static/banners/online.png')}) no-repeat bottom right/cover`,
+            background: `url(${require('~/static/banners/online.png')}) no-repeat bottom left/cover`,
             align: 'right',
             benefits: [
               'безопасный перевод ·',
